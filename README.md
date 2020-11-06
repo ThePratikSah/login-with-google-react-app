@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Getting started with Login with Google in React App
+
+This project is made with ❤ and the link to the post is [here](https://learnsyntax.com/login-with-google-in-react-js/)
+
+Here is the link to the live demo of the [app](https://reactgoogle.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
