@@ -8,7 +8,7 @@ function Profile(props) {
       <img src={props.user.imageUrl} alt="" />
       <h1>{props.user.name}</h1>
       <span>{props.user.email}</span>
-      <p>{props.user.googleId}</p>
+      <p>Id: {props.user.googleId}</p>
       <Logout setUser={props.setUser} />
     </div>
   );

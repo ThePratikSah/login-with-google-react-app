@@ -6,7 +6,6 @@ const clientId =
 
 function Logout(props) {
   function onSuccess(res) {
-    alert("Logged out successfully");
     props.setUser(null);
   }
 
