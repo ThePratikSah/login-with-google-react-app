@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Login from "./Login";
-import Logout from "./Logout";
+import Profile from "./Profile";
 import "../stylesheet/App.css";
 
 function App() {
+  const [user, setUser] = useState(null);
   return (
     <div className="app">
-      <Login />
-      <Logout />
+      {user ? (
+        <Profile user={user} setUser={setUser} />
+      ) : (
+        <Login setUser={setUser} />
+      )}
     </div>
   );
 }
